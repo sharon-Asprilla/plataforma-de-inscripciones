@@ -10,7 +10,7 @@ inscripcion de el curso para poder ingresar al curso y realizar las actividades,
 
 ---
 
-# lengaujes usados
+# lenguajes usados
 
 - **HTML:** Para la estructura de las páginas y formularios
 - **JavaScript:** Para la lógica de interacción, validación y gestión dinámica de datos en el navegador
