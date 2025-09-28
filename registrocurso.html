@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro de cursos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,17 +12,16 @@
         <h2>registro de cursos de los estudiantes:</h2>
         <br>
         <br>
-        <form action="">
+        <form action="javascript:void(0);">
             <div class="usuario">
-                 <label>nombre completo </label>
-                <input type="text" placeholder="eje:lorena suarez rendon" required>
-               
+                <label for="nombre">nombre completo</label>
+                <input type="text" id="nombre" placeholder="eje: lorena suarez rendon" required>
             </div>
 
             <div class="usuario">
-                  <label>curso que desea inscribirse:</label>
-                <select name="curso" id="curso">curso:
-                    <option value="">seleccione un curso </option>
+                <label for="curso">curso que desea inscribirse:</label>
+                <select name="curso" id="curso">
+                    <option value="">seleccione un curso</option>
                     <option value="ingles A1">ingles A1</option>
                     <option value="ingles A2">ingles A2</option>
                     <option value="ingles B1">ingles B1</option>
@@ -31,16 +30,17 @@
                     <option value="ingles C2">ingles C2</option>
                     <option value="ingles complementario">ingles complementario</option>
                 </select>
-
-              
             </div>
 
-            <button type="submit">registrar usuario </button>
+            <button type="button" id="registrarBtn">registrar usuario</button>
             
+            <h2>Estudiantes Registrados:</h2>
+            <ul id="listaEstudiantes">
+                <li>No hay estudiantes registrados aún.</li>
+            </ul>
         </form>
     </div>
 
     <script src="registro.js"></script>
-    
 </body>
 </html>
