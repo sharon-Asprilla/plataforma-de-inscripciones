@@ -1,9 +1,13 @@
-// plataforma.js
+
 
 const nombreInput = document.getElementById("nombre");
 const cursoSelect = document.getElementById("curso");
 const registrarBtn = document.getElementById("registrarBtn");
 const listaEstudiantes = document.getElementById("listaEstudiantes");
+const boton = document.getElementById("cancelar");
+
+boton.style.backgroundColor = "red";
+
 
 let estudiantes = [];
 
@@ -37,6 +41,6 @@ function actualizarLista() {
   });
 
   if (estudiantes.length === 0) {
-    listaEstudiantes.innerHTML = "<li>No hay estudiantes registrados aún.</li>";
+    listaEstudiantes.innerHTML = "<li>No hay estudiantes registrados aún</li>";
   }
 }
