@@ -8,12 +8,7 @@ para los estudiantes que no tienen tiempo para asitir a los cursos de forma pres
 la plataforma como tal debe de garantizar el ingreso del usuario contraseña y datos del estudiante y hacer la 
 inscripcion de el curso para poder ingresar al curso y realizar las actividades, y asi obtener un promedio, al final del curso se obtendra un certificado
 
----
 
-# lenguajes usados
-
-- **HTML:** Para la estructura de las páginas y formularios
-- **JavaScript:** Para la lógica de interacción, validación y gestión dinámica de datos en el navegador
 
 
 
