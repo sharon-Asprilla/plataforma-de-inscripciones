@@ -15,16 +15,16 @@
         <form action="">
             <div class="usuario">
                  <label>correo</label>
-                <input type="text" placeholder="ingresa tu correo" required>
+                <input id="correo" type="text" placeholder="ingresa tu correo" required>
                
             </div>
 
             <div class="usuario">
                   <label>contraseña</label>
-                <input type="password" placeholder="ingresa tu contraseña" required>
+                <input id="contraseña" type="password" placeholder="ingresa tu contraseña" required>
               
             </div>
-             <button type="button"  onclick="window.location.href='ingresar.html'">Ingresar</button>
+             <button type="button" id="ingresar" onclick="validarLogin()">Ingresar</button>
 
             <button type="button"  onclick="window.location.href='registrocurso.html'">registrarse al curso </button>
             <button type="submit" onclick="window.location.href='crearcuenta.html'">Crear cuenta</button>
@@ -33,5 +33,6 @@
     </div>
     
     <script src="main.js"></script>
+    
 </body>
 </html>
