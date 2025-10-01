@@ -15,14 +15,7 @@ inscripcion de el curso para poder ingresar al curso y realizar las actividades,
 - **HTML:** Para la estructura de las páginas y formularios
 - **JavaScript:** Para la lógica de interacción, validación y gestión dinámica de datos en el navegador
 
-# Archivos principales
 
-- `perfil.html`: Inicio de sesión
-- `crearcuenta.html`: Registro de usuario
-- `restablecerclave.html`: Recuperación de contraseña
-- `registrocurso.html`: Inscripción y listado de estudiantes
-- `style.css`: Estilos globales.
-- `registro.js`: Lógica de registro y listado
 
 # Descripción con mas solidez
 
