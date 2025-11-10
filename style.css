@@ -109,6 +109,22 @@ button:hover {
 
 
 
+.enlace{
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+    display: inline-block; 
+    margin-right: 10px;
+    
+}
+
+.enlace:hover{
+    color: #f704c2;
+    
+}
+
+
+
 
 
 

@@ -20,26 +20,6 @@ function validarLogin() {
 
 }
 
-/*
-function validarLogin() {
-    const correo = document.getElementById("correo").value.trim();
-    const contraseña = document.getElementById("contrasena").value.trim();
-
-    
-
-   if (correo=== correoCorrecto && contraseña === contraseñaCorrecta) {
-        alert("¡Bienvenido!");
-        
-    } else {
-        intentos--;
-        if (intentos > 0) {
-            alert("Datos incorrectos. Te quedan " + intentos + " intentos.");
-        } else {
-            alert("Usuario bloqueado por exceder los intentos.");
-        }
-    }
-}
-*/
 
 
 
