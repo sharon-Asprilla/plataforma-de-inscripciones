@@ -2,6 +2,7 @@ const correo = document.getElementById("correo").value;
 
  const contraseña = document.getElementById("contraseña").value;
 
+ 
 
 
 
@@ -19,6 +20,8 @@ function validarLogin() {
     }
 
 }
+
+
 
 
 
