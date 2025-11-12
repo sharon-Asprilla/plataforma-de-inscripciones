@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>version </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+     <div class="login">
+        
+      
+        <br>
+        <br>
+        <form action="">
+
+
+           
+
+
+            <div class="usuario">
+                 <label>correo</label>
+                <input id="correo" type="email" placeholder="ingresa tu correo aqui" required>
+               
+            </div>
+
+            <div class="usuario">
+                  <label>contraseña</label>
+                <input id="contraseña" type="password" placeholder="*********************" required>
+              
+            </div>
+
+            <div class="usuario">
+                  <label>numero de cuenta </label>
+                <input id="cuenta " type="number" placeholder="1002-2000-00988" required>
+              
+            </div>
+
+
+
+              <div class="usuario">
+                <label for="curso">tipo de cuenta </label>
+                <select name="curso" id="curso">
+                    <option value="">seleccione el banco </option>
+                    <option value="ingles A1">Bancolombia </option>
+                    <option value="ingles A2">Nequi</option>
+                    <option value="ingles B1">Daviplata</option>
+                    <option value="ingles B2">BBVA</option>
+                    <option value="ingles C1">banco Caja social</option>
+                    <option value="ingles C2">banco de bogota </option>
+                    
+                </select>
+            </div>
+
+
+            
+             <button type="button" id="ingresar" onclick="window.location.href='premium.html'">pagar suscripcion</button> <br><br>
+
+             <a class="enlace" href="perfil.html" ><i class="fa-solid fa-user-plus"></i> cancelar </a>
+            <a class="enlace" href="restablecerclave.html"  ><i class="fa-solid fa-key"></i> ¿Olvidaste tu contraseña?</a>
+           
+           
+        </form>
+    </div>
+    
+    <script src="main.js"></script>
+    
+    
+</body>
+</html>

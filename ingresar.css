@@ -103,3 +103,22 @@ h2 {
     align-items: center;
     text-align: center;
 }
+
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 16px 0;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    color: #000;
+    margin: 19px 0 0 0;
+    cursor: pointer;
+    background: linear-gradient(125deg, #fe94d3, #ffffff);
+   
+}
+
+button:hover {
+    background-color: #000000;
+    color: #f704c2;
+}

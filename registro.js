@@ -20,6 +20,20 @@ registrarBtn.addEventListener("click", () => {
     return;
   }
 
+  // Validación para evitar nombres de estudiantes duplicados
+  const isNameDuplicate = estudiantes.some(est => est.nombre.toLowerCase() === nombre.toLowerCase());
+  if (isNameDuplicate) {
+    alert(`El estudiante con el nombre "${nombre}" ya está registrado.`);
+    return;
+  }
+
+  
+  const isCourseDuplicate = estudiantes.some(est => est.curso === curso);
+  if (isCourseDuplicate) {
+    alert(`El curso "${curso}" ya ha sido registrado por otro estudiante.`);
+    return;
+  }
+
   const estudiante = {
     nombre,
     curso
