@@ -65,17 +65,15 @@ p{
 
 
 strong  {
-    position: fixed;
-    left: 260px;
-    bottom: 0;
-    width: calc(100% - 260px);
+    display: block;
+    margin-left: 260px;
     background: black;
     color: #f8f4f4;
     text-align: center;
     padding: 16px 0;
     font-size: 20px;
     font-weight: bold;
-    z-index: 100;
+    margin-top: 20px;
     box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
 }
 
