@@ -55,6 +55,16 @@
                 </table>
 
     </div>
-    
+    <button id="download-btn">Descargar Horario</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script>
+        document.getElementById('download-btn').addEventListener('click', function () {
+            const element = document.querySelector('table');
+            html2pdf()
+                .from(element)
+                .save('horario.pdf');
+        });
+    </script>
 </body>
 </html>
