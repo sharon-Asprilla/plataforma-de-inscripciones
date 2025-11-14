@@ -1,6 +1,6 @@
 
 
-const nombreInput = document.getElementById("nombre");
+const nombreInput = document.getElementById("correo");
 const cursoSelect = document.getElementById("curso");
 const registrarBtn = document.getElementById("registrarBtn");
 const listaEstudiantes = document.getElementById("listaEstudiantes");
@@ -12,36 +12,36 @@ boton.style.backgroundColor = "red";
 let estudiantes = [];
 
 registrarBtn.addEventListener("click", () => {
-  const nombre = nombreInput.value.trim();
-  const curso = cursoSelect.value;
+  const correo = nombreInput.value.trim();
+  const curso = cursoSelect.value.trim();
 
-  if (nombre === "" || curso === "") {
+  if (correo === "" || curso === "") {
     alert("Por favor completa todos los campos.");
     return;
   }
 
-  // Validación para evitar nombres de estudiantes duplicados
-  const isNameDuplicate = estudiantes.some(est => est.nombre.toLowerCase() === nombre.toLowerCase());
+ 
+  const isNameDuplicate = estudiantes.some(est => est.correo.toLowerCase() === correo.toLowerCase());
   if (isNameDuplicate) {
-    alert(`El estudiante con el nombre "${nombre}" ya está registrado.`);
+    alert(`El estudiante con el nombre "${correo}" ya está registrado.`);
     return;
   }
 
   
   const isCourseDuplicate = estudiantes.some(est => est.curso === curso);
   if (isCourseDuplicate) {
-    alert(`El curso "${curso}" ya ha sido registrado por otro estudiante.`);
+    alert(`El curso "${curso}" ya ha sido registrado por otro estudiante, porfavor cambia el correo`);
     return;
   }
 
   const estudiante = {
-    nombre,
+    correo,
     curso
   };
 
   estudiantes.push(estudiante);
   actualizarLista();
-  nombreInput.value = "";
+  correoInput.value = "";
   cursoSelect.value = "";
 });
 
@@ -50,7 +50,7 @@ function actualizarLista() {
 
   estudiantes.forEach((est, index) => {
     const li = document.createElement("li");
-    li.textContent = `${index + 1}. ${est.nombre} - ${est.curso}`;
+    li.textContent = `${index + 1}. ${est.correo} - ${est.curso}`;
     listaEstudiantes.appendChild(li);
   });
 

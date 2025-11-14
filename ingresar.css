@@ -1,3 +1,7 @@
+
+
+
+
 nav {
     position: fixed;
     left: 0;
@@ -54,6 +58,19 @@ h1{
 
 }
 
+img{
+    
+    display: block;
+    margin: 10px;
+    width: 560px;
+    height: 315px;
+    background-image: url('/plataforma-de-inscripciones/imagenes/united-states-of-america-flag-vector.jpg'); 
+    background-position: center;
+    border-radius: 30px; 
+    margin: 20px auto;
+
+}
+
 p{
     margin-left: 260px;
     min-height: 5px;
@@ -61,6 +78,35 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+    margin: 10px;
+    width: 560px;
+    height: 315px;
+
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.5 ease;
+    display: block;
+    margin: 10px;
+    width: 560px;
+    height: 315px;
+}
+
+section img:hover{
+    cursor:crosshair;
+    width: 300px;
+    opacity: 1px;
+    filter: brightness(120%);
+
 }
 
 

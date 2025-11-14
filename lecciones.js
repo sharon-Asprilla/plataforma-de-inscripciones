@@ -2,7 +2,7 @@ const niveles = ["A1 - Principiante", "A2 - Básico", "B1 - Intermedio","-b2 - I
 
     document.getElementById("buscarBtn").addEventListener("click", () => {
       const resultado = document.getElementById("resultado");
-      resultado.innerHTML = "<p>Buscando niveles de inglés...</p>";
+      resultado.innerHTML = "<p>Buscando niveles de inglés disponibles al cursar...</p>";
 
 
       setTimeout(() => {
