@@ -194,6 +194,66 @@ button:hover {
     background-color: #f704c2;
 }
 
+/* Media Queries */
+
+/* Tablets */
+@media (max-width: 768px) {
+    .login {
+        padding: 40px 20px;
+        margin: 60px auto;
+    }
+
+    .usuario input {
+        width: 100%;
+    }
+
+    input, select, button {
+        width: 90%;
+    }
+
+    .chat-container {
+        margin: 30px auto;
+        height: 80vh;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    .login {
+        padding: 30px 15px;
+        margin: 40px auto;
+    }
+
+    input, select, button {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .chat-container {
+        margin: 20px auto;
+        height: 90vh;
+    }
+
+    #comment-form {
+        flex-direction: column;
+    }
+
+    #comment-input {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Larger screens */
+@media (min-width: 1024px) {
+    .login {
+        max-width: 600px;
+    }
+
+    .chat-container {
+        max-width: 700px;
+    }
+}
 
 
 
