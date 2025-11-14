@@ -17,6 +17,8 @@ La plataforma está diseñada para ser fácil de usar y segura, permitiendo a lo
 # tecnologias usadas
 
 -html como estructura base de la pagina web
+
 -css para darle estilo ala pagina
+
 -javascript para darle funcionalidades a los botones y estilos
 
